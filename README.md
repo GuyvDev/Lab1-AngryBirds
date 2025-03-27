@@ -29,6 +29,6 @@ The system uses a modular design:
 *   **`Game_control`:** Central FSM managing game state, collisions, and overall flow.
 *   **`Slingshot_block`:** Handles aiming, power calculation, and launch initiation.
 *   **`Bird_block_t`:** Calculates and renders the bird's flight path.
-*   **Rendering Modules:** Dedicated blocks for pigs, obstacles, and background.
+*   **`Rendering Modules`:** Dedicated blocks for pigs, obstacles, and background.
 *   **`VGA_Controller`:** Aggregates pixel data via a MUX and drives the display.
 
